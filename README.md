@@ -2,7 +2,7 @@
 
 I lead teams building decentralized intelligence across AI, quantum systems, and decentralized networks.
 
-- 🧠 CEO at [**Hanzo**](https://hanzo.ai) — vertically integrated AI cloud, agentic systems, and foundation models (Enso, Zen)
+- 🧠 CEO at [**Hanzo**](https://hanzo.ai) — vertically integrated AI cloud, agentic systems, and large language models (Enso, Zen)
 - 💸 Founder of [**Lux**](https://lux.network) — quantum-safe DeFi infrastructure for economic sovereignty
 - 🐾 Co-founder of [**Zoo**](https://zoo.ngo) — protecting endangered species through regenerative finance
 
