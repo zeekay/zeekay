@@ -2,7 +2,7 @@
 
 I lead teams building decentralized intelligence across AI, Robotics and Quantum.
 
-🥷 CEO at [**Hanzo**](https://hanzo.ai) — Techstars backed applied AI cloud and frontier AI (⭕ [Enso](https://github.com/hanzoai/enso), 🌀 [Genjo](https://github.com/hanzoai/genjo), 🤖 [Jin](https://github.com/hanzoai/jin), 🎹 [Mu](https://github.com/hanzoai/rin), 🎥 [Satori](https://github.com/hanzoai/satori), 🪷 [Zen](https://github.com/hanzoai/zen))
+🥷 CEO at [**Hanzo AI**](https://hanzo.ai) — Techstars backed applied AI cloud and frontier AI (⭕ [Enso](https://github.com/hanzoai/enso), 🌀 [Genjo](https://github.com/hanzoai/genjo), 🤖 [Jin](https://github.com/hanzoai/jin), 🎹 [Mu](https://github.com/hanzoai/rin), 🎥 [Satori](https://github.com/hanzoai/satori), 🪷 [Zen](https://github.com/hanzoai/zen))
 
 🔻 Chairman of [**LUX**](https://github.com/luxfi) — private and quantum-safe bank and blockchain accelerating economic freedom
 
