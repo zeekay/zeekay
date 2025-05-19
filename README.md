@@ -8,7 +8,7 @@ I lead teams building decentralized intelligence across AI, quantum systems, and
 
 My work spans foundation models, swarming intelligence, edge robotics, zk compute, and composable protocols for autonomous systems.
 
-Say Hi:
+Say hi:
 
 > curl -sL zeekay.chat | sh
 
