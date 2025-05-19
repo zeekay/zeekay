@@ -14,5 +14,3 @@ My work spans frontier AI, anti-fragile software, confidential compute, edge rob
 Say hi:
 
 > curl -sL zeekay.chat | sh
-
-📫 [zeekay.ai](https://zeekay.ai) · [z@zeekay.ai](mailto:z@zeekay.ai) · [@zeekay](https://x.com/zeekay)
