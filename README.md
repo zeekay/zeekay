@@ -1,5 +1,15 @@
-👋 Hi, I'm Z.
+# 👋 Hi, I’m Z
 
-Building AI at [@hanzoai](https://github.com/hanzoai). Founded [@luxfi](https://github.com/luxfi) to increase economic freedom through decentralized access to private, quantum safe assets. Saving endangered animals with [@zoo-labs](https://github.com/zoo-labs).
- 
-Say hi: `curl zeekay.chat | sh`
+I lead teams building decentralized intelligence across AI, quantum systems, and biological networks.
+
+- 🧠 CEO at [**Hanzo**](https://hanzo.ai) — vertically integrated AI cloud, agentic systems, and foundation models (Zen, Koan, Enso)
+- 💸 Founder of [**Lux**](https://lux.network) — quantum-safe DeFi infrastructure for economic sovereignty
+- 🐾 Cofounder of [**Zoo**](https://zoo.ngo) — protecting endangered species through synthetic biology and virtual genetics
+
+My work spans foundation models, swarming intelligence, edge robotics, zk compute, and composable protocols for autonomous systems.
+
+Say Hi:
+
+> curl -sL zeekay.chat | sh
+
+📫 [zeekay.ai](https://zeekay.ai) · [z@zeekay.ai](mailto:z@zeekay.ai) · [@zeekay](https://twitter.com/zeekay)
