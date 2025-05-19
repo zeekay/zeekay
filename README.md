@@ -6,7 +6,7 @@ I lead teams building decentralized intelligence across AI, Robotics and Quantum
 
 🧬 Architect of [**ZOO**](https://github.com/zooai) — protecting endangered life through regenerative finance
 
-▼ Chairman of [**LUX**](https://github.com/luxfi) — private and quantum-safe bank and blockchain accelerating economic freedom
+🔻 Chairman of [**LUX**](https://github.com/luxfi) — private and quantum-safe bank and blockchain accelerating economic freedom
 
 
 My work spans frontier AI, anti-fragile software, confidential compute, edge robotics, and composable protocols for autonomous systems.
