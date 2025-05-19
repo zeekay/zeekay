@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Z
 
-I lead teams building decentralized intelligence across AI, quantum systems, and decentralized networks.
+I lead teams building decentralized intelligence across AI, Blockchain, Robotics and Quantum.
 
 - 🧠 CEO at [**Hanzo**](https://hanzo.ai) — vertically integrated AI cloud, agentic systems, and large language models (Enso, Zen)
 - 💸 Founder of [**Lux**](https://lux.network) — quantum-safe DeFi infrastructure for economic sovereignty
