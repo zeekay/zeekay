@@ -8,7 +8,7 @@ I lead teams building decentralized intelligence across AI, Robotics and Quantum
 
 🧬 Architect of [**ZOO**](https://github.com/zooai) — protecting endangered life through regenerative finance
 
-My work spans frontier AI, anti-fragile software, confidential compute, edge robotics, and composable protocols for autonomous systems.
+My work spans frontier AI, confidential compute, decentralized networks, edge robotics, and composable protocols for autonomous systems.
 
 Say hi:
 
