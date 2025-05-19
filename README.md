@@ -15,4 +15,4 @@ Say hi:
 
 > curl -sL zeekay.chat | sh
 
-📫 [zeekay.ai](https://zeekay.ai) · [z@zeekay.ai](mailto:z@zeekay.ai) · [@zeekay](https://twitter.com/zeekay)
+📫 [zeekay.ai](https://zeekay.ai) · [z@zeekay.ai](mailto:z@zeekay.ai) · [@zeekay](https://x.com/zeekay)
