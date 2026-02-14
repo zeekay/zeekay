@@ -38,9 +38,9 @@
 
 <!-- STATS:START -->
 ```
-  33,644  commits        15.5  years coding       940  repos touched
-  42.7M   lines added    27.6M lines deleted      15M  net lines
-   2,488  active days       44  longest streak     Wed  most productive day
+   33,644  commits        15.5  years coding       940  repos touched
+  42.7M   lines added    27.6M lines deleted      15.0M  net lines
+    2,488  active days       44  longest streak     Wed  most productive day
 ```
 <!-- STATS:END -->
 
@@ -49,7 +49,7 @@
 |-----|-------|-------|
 | [hanzoai](https://github.com/hanzoai) | 276 | AI infrastructure, agents, MCP, LLM gateway |
 | [luxfi](https://github.com/luxfi) | 287 | Post-quantum blockchain, consensus, DeFi |
-| [zenlm](https://github.com/zenlm) | 67 | Open foundation models, training, inference |
+| [zenlm](https://github.com/zenlm) | 68 | Open foundation models, training, inference |
 | [zoo-labs](https://github.com/zoo-labs) | 25 | DeAI research, decentralized science |
 | [zeekay](https://github.com/zeekay) | 375 | Open source tools, protocols, experiments |
 <!-- ORGS:END -->
@@ -90,22 +90,22 @@
 ```
 Year     Commits    Lines Added    Lines Deleted    Net LOC        Active Days
 ─────    ───────    ───────────    ─────────────    ───────────    ───────────
-2025       4,775     12,671,999       6,794,477     +5,877,522          171
-2024       1,175     10,189,872       1,939,029     +8,250,843          180
-2023         978      1,675,762       1,131,036       +544,726           91
-2022       1,411        508,696         365,523       +143,173          189
-2021       1,205      5,288,914       5,278,338        +10,576          101
-2020         597        206,027         152,167        +53,860          106
-2019         245        221,835         177,721        +44,114           62
-2018       1,817        500,582         920,332       -419,750          142
-2017       4,030        804,242         915,549       -111,307          178
-2016       1,854        475,629         536,317        -60,688          195
-2015       4,918      2,290,756       2,545,690       -254,934          247
-2014       3,752      3,268,349       5,838,899     -2,570,550          241
-2013       4,073      2,635,805         772,822     +1,862,983          278
-2012       2,379      1,762,415         166,728     +1,595,687          248
-2011         416        168,137         101,871        +66,266           53
-2010          19          4,465           1,475         +2,990            6
+2025       4,775      12,671,999         6,794,477     +  5,877,522          171
+2024       1,175      10,189,872         1,939,029     +  8,250,843          180
+2023         978       1,675,762         1,131,036     +    544,726           91
+2022       1,411         508,696           365,523     +    143,173          189
+2021       1,205       5,288,914         5,278,338     +     10,576          101
+2020         597         206,027           152,167     +     53,860          106
+2019         245         221,835           177,721     +     44,114           62
+2018       1,817         500,582           920,332        -419,750          142
+2017       4,030         804,242           915,549        -111,307          178
+2016       1,854         475,629           536,317         -60,688          195
+2015       4,918       2,290,756         2,545,690        -254,934          247
+2014       3,752       3,268,349         5,838,899      -2,570,550          241
+2013       4,073       2,635,805           772,822     +  1,862,983          278
+2012       2,379       1,762,415           166,728     +  1,595,687          248
+2011         416         168,137           101,871     +     66,266           53
+2010          19           4,465             1,475     +      2,990            6
 ```
 <!-- YEARLY:END -->
 
