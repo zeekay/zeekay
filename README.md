@@ -29,7 +29,6 @@ Building frontier AI from model weights to production infrastructure.
 | | |
 |---|---|
 | [Enso](https://github.com/hanzoai/enso) | AI-native browser &mdash; built-in agents, local private AI, and cloud LLMs in one circle |
-| [Enso Diffusion](https://github.com/hanzoai/enso-diffusion) | Multimodal Mixture of Unbound Experts (MUEN) &mdash; diffusion intelligence powering Enso |
 | [MCP](https://github.com/hanzoai/mcp) | Model Context Protocol server with 260+ tools for AI agents |
 | [Gateway](https://github.com/hanzoai/gateway) | Unified LLM gateway &mdash; 100+ providers, load balancing, caching |
 | [Code](https://github.com/hanzoai/code) | Open source AI code editor &mdash; any model, full data control |
@@ -37,18 +36,19 @@ Building frontier AI from model weights to production infrastructure.
 | [Guard](https://github.com/hanzoai/guard) | LLM I/O sanitization layer for safe AI deployments |
 | [Node](https://github.com/hanzoai/node) | Rust inference node &mdash; local private AI with libp2p and post-quantum crypto |
 | [Desktop](https://github.com/hanzoai/desktop) | Cross-platform agent builder &mdash; no-code visual AI workflows via Tauri |
-| [Jin](https://github.com/hanzoai/jin) | Multimodal AI &mdash; vision, audio, 3D embeddings |
-| [Satori](https://github.com/hanzoai/satori) | Video generation via latent-space diffusion with temporal dynamics |
-| [Mu](https://github.com/hanzoai/mu) | Full-length song generation with latent diffusion |
 
 **[Zen LM](https://github.com/zenlm)** `Architect` &mdash; Open foundation models from 0.6B to 1T+ parameters.
 
 | | |
 |---|---|
-| [Zen4](https://github.com/zenlm/zen4) &mdash; [mini](https://github.com/zenlm/zen4-mini) / [pro](https://github.com/zenlm/zen4-pro) / [max](https://github.com/zenlm/zen4-max) / [ultra](https://github.com/zenlm/zen4-ultra) | Latest generation dense and MoE models on Qwen3/Kimi K2 |
+| [Zen4](https://github.com/zenlm/zen4) &mdash; [mini](https://github.com/zenlm/zen4-mini) / [pro](https://github.com/zenlm/zen4-pro) / [max](https://github.com/zenlm/zen4-max) / [ultra](https://github.com/zenlm/zen4-ultra) | Latest generation dense and MoE models on Qwen3/GLM-5 |
 | [Zen4 Coder](https://github.com/zenlm/zen4-coder) &mdash; [flash](https://github.com/zenlm/zen4-coder-flash) / [pro](https://github.com/zenlm/zen4-coder-pro) | Code-specialized models for agentic software engineering |
 | [Zen VL](https://huggingface.co/zenlm/zen-vl-30b-instruct) | Vision-language models with function calling (4B/8B/30B) |
 | [Zen Omni](https://github.com/zenlm/zen-omni) | 30B hypermodal AI &mdash; text, vision, audio, video |
+| [Enso](https://github.com/zenlm/enso) | Multimodal Mixture of Unbound Experts (MUEN) &mdash; diffusion intelligence |
+| [Jin](https://github.com/zenlm/jin) | Multimodal AI &mdash; vision, audio, 3D embeddings |
+| [Satori](https://github.com/zenlm/satori) | Video generation via latent-space diffusion with temporal dynamics |
+| [Mu](https://github.com/zenlm/mu) | Full-length song generation with latent diffusion |
 | [Zen 3D](https://github.com/zenlm/zen-3d) | 3.3B controllable 3D asset generation |
 | [Zen World](https://github.com/zenlm/zen-world) | Large-scale world simulation and generation |
 | [Engine](https://github.com/zenlm/engine) | High-performance inference engine in Rust/MLX/GGUF |
