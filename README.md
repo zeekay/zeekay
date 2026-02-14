@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://zeekay.ai">zeekay.ai</a> ·
-  <a href="https://hanzo.ai">hanzo.ai</a> ·
-  <a href="https://lux.network">lux.network</a> ·
-  <a href="https://zoo.ngo">zoo.ngo</a> ·
+  <a href="https://zeekay.ai">zeekay.ai</a> &middot;
+  <a href="https://hanzo.ai">hanzo.ai</a> &middot;
+  <a href="https://lux.network">lux.network</a> &middot;
+  <a href="https://zoo.ngo">zoo.ngo</a> &middot;
   <a href="https://zenlm.org">zenlm.org</a>
 </p>
 
@@ -18,19 +18,120 @@
 
 ---
 
-### What I'm building
+### Research
 
-**[Hanzo AI](https://github.com/hanzoai)** `CEO` — Techstars '17. Applied AI cloud, frontier models, and autonomous agent infrastructure.
-> [Enso](https://github.com/hanzoai/enso) · [Jin](https://github.com/hanzoai/jin) · [Mu](https://github.com/hanzoai/mu) · [Satori](https://github.com/hanzoai/satori) · [MCP](https://github.com/hanzoai/mcp) · [LLM Gateway](https://github.com/hanzoai/llm)
+#### AI & Foundation Models
 
-**[Zen LM](https://github.com/zenlm)** `Architect` — Open foundation models from 0.6B to 671B parameters on Qwen3/Kimi K2.
-> [zen-nano](https://huggingface.co/zenlm/zen-nano) · [zen-coder](https://huggingface.co/zenlm/zen-coder) · [zen-max](https://huggingface.co/zenlm/zen-max) · [zen-vl](https://huggingface.co/zenlm/zen-vl-30b-instruct) · [zen-omni](https://huggingface.co/zenlm/zen-omni)
+Building frontier AI from model weights to production infrastructure.
 
-**[LUX](https://github.com/luxfi)** `Chairman` — Post-quantum blockchain with multi-consensus architecture accelerating economic freedom.
-> [Node](https://github.com/luxfi/node) · [Wallet](https://github.com/luxfi/wallet) · [EVM](https://github.com/luxfi/evm) · [Bridge](https://github.com/luxfi/bridge)
+**[Hanzo AI](https://github.com/hanzoai)** `CEO` &mdash; Techstars '17. Applied AI cloud, autonomous agents, and LLM infrastructure.
 
-**[ZOO](https://github.com/zoo-labs)** `Founder` — Decentralized AI research network and regenerative finance for endangered life.
-> [ZIPs](https://zips.zoo.ngo) · [Gym](https://github.com/zenlm/zen-gym) · [Engine](https://github.com/zenlm/zen-engine)
+| | |
+|---|---|
+| [Enso](https://github.com/hanzoai/enso) | Multimodal Mixture of Unbound Experts (MUEN) &mdash; unifying text, vision, and audio through diffusion |
+| [Satori](https://github.com/hanzoai/satori) | Efficient video generation via latent-space diffusion with explicit temporal dynamics |
+| [Mu](https://github.com/hanzoai/mu) | End-to-end full-length song generation with latent diffusion |
+| [Jin](https://github.com/hanzoai/jin) | Multimodal AI &mdash; vision, audio, 3D embeddings |
+| [MCP](https://github.com/hanzoai/mcp) | Model Context Protocol server with 260+ tools for AI agents |
+| [Router](https://github.com/hanzoai/router) | LLM gateway, agent protocols, and message control pipelines |
+| [Code](https://github.com/hanzoai/code) | Open source AI code editor &mdash; any model, full data control |
+| [Overlord](https://github.com/hanzoai/overlord) | AI agent orchestration through local computer use |
+
+**[Zen LM](https://github.com/zenlm)** `Architect` &mdash; Open foundation models from 0.6B to 1T+ parameters.
+
+| | |
+|---|---|
+| [Zen4](https://github.com/zenlm/zen4) &mdash; [mini](https://github.com/zenlm/zen4-mini) / [pro](https://github.com/zenlm/zen4-pro) / [max](https://github.com/zenlm/zen4-max) / [ultra](https://github.com/zenlm/zen4-ultra) | Latest generation dense and MoE models on Qwen3/Kimi K2 |
+| [Zen4 Coder](https://github.com/zenlm/zen4-coder) &mdash; [flash](https://github.com/zenlm/zen4-coder-flash) / [pro](https://github.com/zenlm/zen4-coder-pro) | Code-specialized models for agentic software engineering |
+| [Zen VL](https://huggingface.co/zenlm/zen-vl-30b-instruct) | Vision-language models with function calling (4B/8B/30B) |
+| [Zen Omni](https://github.com/zenlm/zen-omni) | 30B hypermodal AI with MLX/GGUF inference |
+| [Zen World](https://github.com/zenlm/zen-world) | Large-scale world simulation and generation |
+| [Engine](https://github.com/zenlm/engine) | High-performance inference engine in Rust/MLX/GGUF |
+| [Gym](https://github.com/zenlm/gym) | Unified fine-tuning for 100+ LLMs and VLMs |
+
+---
+
+#### Post-Quantum Cryptography & Blockchain
+
+Hardening decentralized systems against quantum threats with lattice-based crypto, threshold signatures, and multi-consensus architecture.
+
+**[LUX](https://github.com/luxfi)** `Chairman` &mdash; Post-quantum blockchain accelerating economic freedom.
+
+| | |
+|---|---|
+| [Node](https://github.com/luxfi/node) | Multi-consensus blockchain node &mdash; Snow, DAG, and classical consensus |
+| [Crypto](https://github.com/luxfi/crypto) | Core primitives: SHA-2/3, ECDSA, BLS, HKDF, and lattice-based PQ schemes |
+| [CRYSTALS](https://github.com/luxfi/crystals-go) | Go implementation of post-quantum Kyber and Dilithium |
+| [ML-KEM](https://github.com/luxfi/mlkem768) | Quantum-resistant key encapsulation (formerly Kyber) |
+| [FROST](https://github.com/luxfi/safe-frost) | FROST threshold signatures for Safe smart accounts |
+| [Threshold](https://github.com/luxfi/threshold) | Multiparty CGGMP21, FROST, and LSS threshold signature schemes |
+| [Lattice](https://github.com/luxfi/lattice) | Multiparty homomorphic encryption for post-quantum safety |
+| [Lamport](https://github.com/luxfi/lamport) | Post-quantum secure one-time signatures for EVM contracts |
+| [Ringtail](https://github.com/luxfi/ringtail) | 2-round lattice-based threshold signature from standard assumptions |
+| [QZMQ](https://github.com/luxfi/qzmq) | Quantum-safe ZeroMQ transport with ML-KEM and ML-DSA |
+| [libp2p](https://github.com/luxfi/libp2p) | P2P networking with post-quantum crypto support |
+
+---
+
+#### Fully Homomorphic Encryption (FHE)
+
+Computing on encrypted data &mdash; from GPU-accelerated FHE to on-chain confidential smart contracts.
+
+| | |
+|---|---|
+| [FHE GPU](https://github.com/luxfi/fhe-gpu) | GPU-accelerated BFV, BGV, CKKS schemes based on SEAL |
+| [FHEVM](https://github.com/luxfi/fhevm) | Full-stack framework integrating FHE with blockchain |
+| [FHE Compiler](https://github.com/luxfi/fhe-compiler) | LLVM-based compiler for the Lux FHE stack |
+| [FHE ML](https://github.com/luxfi/fhe-ml) | Machine learning on encrypted data |
+| [Torus](https://github.com/luxfi/torus) | Python FHE compiler and runtime |
+| [FHE Threshold](https://github.com/luxfi/fhe-threshold) | Threshold FHE protocols for multiparty computation |
+| [Z-Chain](https://github.com/luxfi/zchain) | Execution service for FHE computations on-chain |
+
+---
+
+#### Zero Knowledge & Privacy
+
+Private payments, trustless bridges, and zero-knowledge proofs for blockchain interoperability.
+
+| | |
+|---|---|
+| [ZPay](https://github.com/luxfi/zpay) | Anonymous payment system secured by zero-knowledge proofs |
+| [Teleport](https://github.com/luxfi/teleport) | Zero-knowledge MPC cross-chain bridge |
+| [Standard](https://github.com/luxfi/standard) | Reference implementation of Teleport protocol and quantum signatures |
+| [Multi-Party ECDSA](https://github.com/luxfi/multi-party-ecdsa) | {t,n}-threshold ECDSA for the Teleport protocol |
+| [zkVM Benchmarks](https://github.com/luxfi/zkvm-benchmarks) | Benchmarks of popular zkVMs including Jolt |
+| [Precompiles](https://github.com/luxfi/precompile) | EVM precompiles for AI mining, Teleport, and quantum signatures |
+
+---
+
+#### Decentralized AI & Science
+
+Open research networks, decentralized governance, and infrastructure for community-driven AI.
+
+**[ZOO](https://github.com/zoo-labs)** `Founder` &mdash; Decentralized AI research network and regenerative finance for endangered life.
+
+| | |
+|---|---|
+| [ZIPs](https://zips.zoo.ngo) | Zoo Improvement Proposals &mdash; decentralized governance |
+| [Zoo](https://github.com/zoo-labs/zoo) | Core ecosystem for decentralized AI research |
+| [Explorer](https://github.com/zoo-labs/explore) | Zoo network explorer interface |
+
+---
+
+#### Protocols & Infrastructure
+
+High-performance systems underpinning the stack.
+
+| | |
+|---|---|
+| [ZAP](https://github.com/zeekay/zap) | Zero-Copy App Proto &mdash; high-performance RPC for AI agents ([Go](https://github.com/zeekay/zap-go) / [Rust](https://github.com/zeekay/zap-rust) / [Python](https://github.com/zeekay/zap-py) / [JS](https://github.com/zeekay/zap-js) / [C++](https://github.com/zeekay/zap-cpp) / [Java](https://github.com/zeekay/zap-java) / [14+ languages](https://github.com/zeekay?tab=repositories&q=zap-)) |
+| [EVM](https://github.com/luxfi/evm) | Lux C-chain &mdash; EVM with subnet support |
+| [Session](https://github.com/luxfi/session) | Post-quantum secure messaging VM for Lux |
+| [LuxOS](https://github.com/luxfi/os) | Secure, private mobile operating system |
+| [Wallet](https://github.com/luxfi/wallet) | Multi-chain HD wallet |
+| [Bridge](https://github.com/luxfi/bridge) | Trustless MPC bridge with privacy-focused Teleport protocol |
+| [Market](https://github.com/luxfi/market) | Web3 marketplace for real-world assets (RWAs) |
+| [Bootnode](https://github.com/bootnode/bootnode) | Blockchain network deployment and management framework |
 
 ---
 
@@ -60,17 +161,17 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-luxfi.vercel.app/api?username=zeekay&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-luxfi.vercel.app/api?username=zeekay&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
-    <img alt="GitHub Stats" src="https://github-readme-stats-luxfi.vercel.app/api?username=zeekay&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://stats.zeekay.com/api?username=zeekay&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
+    <source media="(prefers-color-scheme: light)" srcset="https://stats.zeekay.com/api?username=zeekay&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
+    <img alt="GitHub Stats" src="https://stats.zeekay.com/api?username=zeekay&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-luxfi.vercel.app/api/top-langs/?username=zeekay&layout=compact&theme=github_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-luxfi.vercel.app/api/top-langs/?username=zeekay&layout=compact&theme=default&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
-    <img alt="Top Languages" src="https://github-readme-stats-luxfi.vercel.app/api/top-langs/?username=zeekay&layout=compact&theme=github_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://stats.zeekay.com/api/top-langs/?username=zeekay&layout=compact&theme=github_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
+    <source media="(prefers-color-scheme: light)" srcset="https://stats.zeekay.com/api/top-langs/?username=zeekay&layout=compact&theme=default&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
+    <img alt="Top Languages" src="https://stats.zeekay.com/api/top-langs/?username=zeekay&layout=compact&theme=github_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
   </picture>
 </p>
 
@@ -84,7 +185,8 @@
 
 ---
 
-### Yearly output
+<details>
+<summary><strong>Yearly output</strong></summary>
 
 <!-- YEARLY:START -->
 ```
@@ -109,9 +211,10 @@ Year     Commits    Lines Added    Lines Deleted    Net LOC        Active Days
 ```
 <!-- YEARLY:END -->
 
----
+</details>
 
-### Recent activity (last 30 days)
+<details>
+<summary><strong>Recent activity (last 30 days)</strong></summary>
 
 <!-- RECENT:START -->
 ```
@@ -120,6 +223,8 @@ Year     Commits    Lines Added    Lines Deleted    Net LOC        Active Days
   3.7M  lines deleted
 ```
 <!-- RECENT:END -->
+
+</details>
 
 ---
 
