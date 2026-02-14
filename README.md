@@ -36,7 +36,7 @@ Building frontier AI from model weights to production infrastructure.
 | [Gateway](https://github.com/hanzoai/gateway) | Unified LLM gateway &mdash; 100+ providers, load balancing, caching |
 | [Code](https://github.com/hanzoai/code) | Open source AI code editor &mdash; any model, full data control |
 | [Guard](https://github.com/hanzoai/guard) | LLM I/O sanitization layer for safe AI deployments |
-| [Agentfield](https://github.com/hanzoai/agentfield) | Kubernetes for AI agents &mdash; build and run agents like microservices |
+| [Agents](https://github.com/hanzoai/agents) | Kubernetes for AI agents &mdash; build and run agents like microservices |
 
 **[Zen LM](https://github.com/zenlm)** `Architect` &mdash; Open foundation models from 0.6B to 1T+ parameters.
 
