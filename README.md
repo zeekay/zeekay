@@ -60,17 +60,17 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=zeekay&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=zeekay&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=zeekay&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-luxfi.vercel.app/api?username=zeekay&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-luxfi.vercel.app/api?username=zeekay&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
+    <img alt="GitHub Stats" src="https://github-readme-stats-luxfi.vercel.app/api?username=zeekay&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&rank_icon=github&card_width=520" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=zeekay&layout=compact&theme=github_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=zeekay&layout=compact&theme=default&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeekay&layout=compact&theme=github_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-luxfi.vercel.app/api/top-langs/?username=zeekay&layout=compact&theme=github_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-luxfi.vercel.app/api/top-langs/?username=zeekay&layout=compact&theme=default&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
+    <img alt="Top Languages" src="https://github-readme-stats-luxfi.vercel.app/api/top-langs/?username=zeekay&layout=compact&theme=github_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
   </picture>
 </p>
 
