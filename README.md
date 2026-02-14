@@ -65,6 +65,10 @@ Hardening decentralized systems against quantum threats with lattice-based crypt
 | | |
 |---|---|
 | [Node](https://github.com/luxfi/node) | Multi-consensus blockchain node &mdash; Snow, DAG, and classical consensus |
+| [Consensus](https://github.com/luxfi/consensus) | Quasar consensus engine &mdash; Go implementations of consensus protocols for Lux |
+| [Precompiles](https://github.com/luxfi/precompile) | EVM precompiles for ML-DSA, ML-KEM, SLH-DSA, AI mining, and Teleport |
+| [ML-DSA](https://github.com/luxfi/precompile/tree/main/mldsa) | On-chain Dilithium (FIPS 204) signature verification &mdash; post-quantum signatures in Solidity |
+| [PQCrypto](https://github.com/luxfi/precompile/tree/main/pqcrypto) | Unified EVM precompile for ML-DSA, ML-KEM, and SLH-DSA (NIST PQ standards) |
 | [Crypto](https://github.com/luxfi/crypto) | Core primitives: SHA-2/3, ECDSA, BLS, HKDF, and lattice-based PQ schemes |
 | [CRYSTALS](https://github.com/luxfi/crystals-go) | Go implementation of post-quantum Kyber and Dilithium |
 | [ML-KEM](https://github.com/luxfi/mlkem768) | Quantum-resistant key encapsulation (formerly Kyber) |
@@ -125,12 +129,34 @@ Open research networks, decentralized governance, and infrastructure for communi
 
 ---
 
-#### Protocols & Infrastructure
+#### ZAP Protocol
+
+Zero-Copy App Proto &mdash; high-performance serialization and RPC designed for AI agent communication. Schema compiler with codegen for 20+ languages and editor tooling.
 
 | | |
 |---|---|
-| [ZAP](https://github.com/zeekay/zap) | Zero-Copy App Proto &mdash; high-performance RPC ([Go](https://github.com/zeekay/zap-go) / [Rust](https://github.com/zeekay/zap-rust) / [Python](https://github.com/zeekay/zap-py) / [JS](https://github.com/zeekay/zap-js) / [C++](https://github.com/zeekay/zap-cpp) / [14+ languages](https://github.com/zeekay?tab=repositories&q=zap-)) |
+| [ZAP](https://github.com/zeekay/zap) | Protocol spec, schema compiler, and core tooling |
+| [zap-go](https://github.com/zeekay/zap-go) | Go bindings |
+| [zap-rust](https://github.com/zeekay/zap-rust) | Rust implementation |
+| [zap-py](https://github.com/zeekay/zap-py) | Python bindings |
+| [zap-js](https://github.com/zeekay/zap-js) | JavaScript/TypeScript bindings |
+| [zap-cpp](https://github.com/zeekay/zap-cpp) | C++ core library and tools |
+| [zap-c](https://github.com/zeekay/zap-c) | C library |
+| [zap-java](https://github.com/zeekay/zap-java) | Pure Java implementation |
+| [zap-cs](https://github.com/zeekay/zap-cs) | .NET Standard / .NET Core |
+| [zap-rust](https://github.com/zeekay/zap-rust) / [haskell](https://github.com/zeekay/zap-haskell) / [ocaml](https://github.com/zeekay/zap-ocaml) / [scala](https://github.com/zeekay/zap-scala) / [erlang](https://github.com/zeekay/zap-erlang) / [nim](https://github.com/zeekay/zap-nim) / [dlang](https://github.com/zeekay/zap-dlang) / [lua](https://github.com/zeekay/zap-lua) / [ruby](https://github.com/zeekay/zap-ruby) | Additional language bindings |
+| [zap-lsp](https://github.com/zeekay/zap-lsp) | Language Server Protocol for editors |
+| [zap-vscode](https://github.com/zeekay/zap-vscode) / [vim](https://github.com/zeekay/zap-vim) / [sublime](https://github.com/zeekay/zap-sublime) / [intellij](https://github.com/zeekay/zap-intellij) | Editor plugins |
+| [zap-wireshark](https://github.com/zeekay/zap-wireshark) | Wireshark dissector plugins |
+
+---
+
+#### Infrastructure
+
+| | |
+|---|---|
 | [EVM](https://github.com/luxfi/evm) | Lux C-chain &mdash; EVM with subnet support |
+| [Stack](https://github.com/luxfi/stack) | Infrastructure-as-code for the Lux ecosystem &mdash; nodes, chains, monitoring |
 | [Wallet](https://github.com/luxfi/wallet) | Multi-chain HD wallet |
 | [Bridge](https://github.com/luxfi/bridge) | Trustless MPC bridge with Teleport protocol |
 | [Market](https://github.com/luxfi/market) | Web3 marketplace for real-world assets |
