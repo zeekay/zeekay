@@ -28,15 +28,18 @@ Building frontier AI from model weights to production infrastructure.
 
 | | |
 |---|---|
-| [Enso](https://github.com/hanzoai/enso) | Multimodal Mixture of Unbound Experts &mdash; unifying text, vision, audio through diffusion |
-| [Satori](https://github.com/hanzoai/satori) | Efficient video generation via latent-space diffusion with explicit temporal dynamics |
-| [Mu](https://github.com/hanzoai/mu) | End-to-end full-length song generation with latent diffusion |
-| [Jin](https://github.com/hanzoai/jin) | Multimodal AI &mdash; vision, audio, 3D embeddings |
+| [Enso](https://github.com/hanzoai/enso) | AI-native browser &mdash; built-in agents, local private AI, and cloud LLMs in one circle |
+| [Enso Diffusion](https://github.com/hanzoai/enso-diffusion) | Multimodal Mixture of Unbound Experts (MUEN) &mdash; diffusion intelligence powering Enso |
 | [MCP](https://github.com/hanzoai/mcp) | Model Context Protocol server with 260+ tools for AI agents |
 | [Gateway](https://github.com/hanzoai/gateway) | Unified LLM gateway &mdash; 100+ providers, load balancing, caching |
 | [Code](https://github.com/hanzoai/code) | Open source AI code editor &mdash; any model, full data control |
+| [Agents](https://github.com/hanzoai/agents) | AI agent orchestration &mdash; build and run agents like microservices |
 | [Guard](https://github.com/hanzoai/guard) | LLM I/O sanitization layer for safe AI deployments |
-| [Agents](https://github.com/hanzoai/agents) | Kubernetes for AI agents &mdash; build and run agents like microservices |
+| [Node](https://github.com/hanzoai/node) | Rust inference node &mdash; local private AI with libp2p and post-quantum crypto |
+| [Desktop](https://github.com/hanzoai/desktop) | Cross-platform agent builder &mdash; no-code visual AI workflows via Tauri |
+| [Jin](https://github.com/hanzoai/jin) | Multimodal AI &mdash; vision, audio, 3D embeddings |
+| [Satori](https://github.com/hanzoai/satori) | Video generation via latent-space diffusion with temporal dynamics |
+| [Mu](https://github.com/hanzoai/mu) | Full-length song generation with latent diffusion |
 
 **[Zen LM](https://github.com/zenlm)** `Architect` &mdash; Open foundation models from 0.6B to 1T+ parameters.
 
