@@ -1,0 +1,92 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # Daily at 7am UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch stats from dashboard
+        run: |
+          curl -sL https://zeekay.github.io/stats/data.json -o data.json
+
+      - name: Update README stats
+        run: |
+          python3 << 'PYEOF'
+          import json, re
+
+          with open('data.json') as f:
+              d = json.load(f)
+
+          stats = d['data']['zeekay']['stats']
+          yearly = stats['yearly']
+
+          # Format helpers
+          def fmt(n):
+              if abs(n) >= 1_000_000:
+                  return f"{n/1_000_000:.1f}M"
+              elif abs(n) >= 1_000:
+                  return f"{n/1_000:.1f}K"
+              return f"{n:,}"
+
+          # Build stats block
+          stats_block = f"""```
+            {stats['total_commits']:,}  commits        {stats['years_coding']:.1f}  years coding       {stats['unique_repos']:,}  repos touched
+            {fmt(stats['total_additions'])}   lines added    {fmt(stats['total_deletions'])} lines deleted      {fmt(stats['net_loc_change'])}  net lines
+            {stats['active_days']:,}  active days       {stats['longest_streak']}  longest streak     {stats['most_productive_day'][:3]}  most productive day
+          ```"""
+
+          # Build orgs block (static for now, could be fetched)
+          # Keep existing org block
+
+          # Build yearly table
+          years_sorted = sorted(yearly.items(), key=lambda x: x[0], reverse=True)
+          lines = ["```", "Year     Commits    Lines Added    Lines Deleted    Net LOC        Active Days", "─────    ───────    ───────────    ─────────────    ───────────    ───────────"]
+          for year, yd in years_sorted:
+              net = yd['net_loc']
+              sign = '+' if net >= 0 else ''
+              lines.append(f"{year}     {yd['commits']:>7,}     {yd['additions']:>11,}       {yd['deletions']:>11,}     {sign}{net:>11,}          {yd['days_active']:>3}")
+          lines.append("```")
+          yearly_block = "\n".join(lines)
+
+          # Build recent block
+          p30 = stats['periods']['30d']
+          recent_block = f"""```
+            {p30['commits']:,} commits across {p30['repos']} repos
+            {fmt(p30['additions'])}  lines added
+            {fmt(p30['deletions'])}  lines deleted
+          ```"""
+
+          # Read README
+          with open('README.md') as f:
+              readme = f.read()
+
+          # Replace sections
+          def replace_section(text, marker, content):
+              pattern = f"(<!-- {marker}:START -->).*?(<!-- {marker}:END -->)"
+              return re.sub(pattern, f"\\1\n{content}\n\\2", text, flags=re.DOTALL)
+
+          readme = replace_section(readme, 'STATS', stats_block)
+          readme = replace_section(readme, 'YEARLY', yearly_block)
+          readme = replace_section(readme, 'RECENT', recent_block)
+
+          with open('README.md', 'w') as f:
+              f.write(readme)
+
+          print(f"Updated: {stats['total_commits']:,} commits, {stats['years_coding']:.1f} years")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && echo "No changes" || git commit -m "chore: update profile stats [skip ci]" && git push
