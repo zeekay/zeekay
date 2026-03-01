@@ -182,7 +182,7 @@ Zero-Copy App Proto &mdash; high-performance serialization and RPC designed for 
 | [luxfi](https://github.com/luxfi) | 289 | Post-quantum blockchain, consensus, DeFi |
 | [zenlm](https://github.com/zenlm) | 83 | Open foundation models, training, inference |
 | [zoo-labs](https://github.com/zoo-labs) | 25 | DeAI research, decentralized science |
-| [zeekay](https://github.com/zeekay) | 547 | Open source tools, protocols, experiments |
+| [zeekay](https://github.com/zeekay) | 548 | Open source tools, protocols, experiments |
 <!-- ORGS:END -->
 
 ---
