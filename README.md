@@ -178,11 +178,11 @@ Zero-Copy App Proto &mdash; high-performance serialization and RPC designed for 
 <!-- ORGS:START -->
 | Org | Repos | Focus |
 |-----|-------|-------|
-| [hanzoai](https://github.com/hanzoai) | 325 | AI infrastructure, agents, MCP, LLM gateway |
-| [luxfi](https://github.com/luxfi) | 288 | Post-quantum blockchain, consensus, DeFi |
+| [hanzoai](https://github.com/hanzoai) | 337 | AI infrastructure, agents, MCP, LLM gateway |
+| [luxfi](https://github.com/luxfi) | 290 | Post-quantum blockchain, consensus, DeFi |
 | [zenlm](https://github.com/zenlm) | 85 | Open foundation models, training, inference |
-| [zoo-labs](https://github.com/zoo-labs) | 25 | DeAI research, decentralized science |
-| [zeekay](https://github.com/zeekay) | 548 | Open source tools, protocols, experiments |
+| [zoo-labs](https://github.com/zoo-labs) | 26 | DeAI research, decentralized science |
+| [zeekay](https://github.com/zeekay) | 549 | Open source tools, protocols, experiments |
 <!-- ORGS:END -->
 
 ---
