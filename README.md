@@ -169,7 +169,7 @@ Zero-Copy App Proto &mdash; high-performance serialization and RPC designed for 
 
 <!-- STATS:START -->
 ```
-   33,644  commits        15.5  years coding       940  repos touched
+   33,644  commits        15.8  years coding       940  repos touched
   42.7M   lines added    27.6M lines deleted      15.0M  net lines
     2,488  active days       44  longest streak     Wed  most productive day
 ```
@@ -178,7 +178,7 @@ Zero-Copy App Proto &mdash; high-performance serialization and RPC designed for 
 <!-- ORGS:START -->
 | Org | Repos | Focus |
 |-----|-------|-------|
-| [hanzoai](https://github.com/hanzoai) | 366 | AI infrastructure, agents, MCP, LLM gateway |
+| [hanzoai](https://github.com/hanzoai) | 367 | AI infrastructure, agents, MCP, LLM gateway |
 | [luxfi](https://github.com/luxfi) | 305 | Post-quantum blockchain, consensus, DeFi |
 | [zenlm](https://github.com/zenlm) | 85 | Open foundation models, training, inference |
 | [zoo-labs](https://github.com/zoo-labs) | 29 | DeAI research, decentralized science |
@@ -238,9 +238,9 @@ Year     Commits    Lines Added    Lines Deleted    Net LOC        Active Days
 
 <!-- RECENT:START -->
 ```
-  2,828 commits across 352 repos
-  8.5M  lines added
-  3.7M  lines deleted
+  0 commits across 0 repos
+  0  lines added
+  0  lines deleted
 ```
 <!-- RECENT:END -->
 
