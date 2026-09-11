@@ -61,7 +61,7 @@ def main():
 
     # Update org counts
     focus = {
-        "hanzoai": "AI infrastructure, agents, MCP, LLM gateway",
+        "hanzoai": "The Open AI Cloud: Enso, agents, MCP, inference",
         "luxfi": "Post-quantum blockchain, consensus, DeFi",
         "zenlm": "Open foundation models, training, inference",
         "zoo-labs": "DeAI research, decentralized science",
