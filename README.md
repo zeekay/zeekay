@@ -141,7 +141,7 @@ Zero-copy app protocol: one wire format for AI agents and the services they call
 <!-- ORGS:START -->
 | Org | Repos | Focus |
 |-----|-------|-------|
-| [hanzoai](https://github.com/hanzoai) | 332 | The Open AI Cloud: Enso, agents, MCP, inference |
+| [hanzoai](https://github.com/hanzoai) | 331 | The Open AI Cloud: Enso, agents, MCP, inference |
 | [luxfi](https://github.com/luxfi) | 149 | Post-quantum blockchain, consensus, DeFi |
 | [zenlm](https://github.com/zenlm) | 87 | Open foundation models, training, inference |
 | [zoo-labs](https://github.com/zoo-labs) | 4 | DeAI research, decentralized science |
