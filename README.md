@@ -20,14 +20,15 @@
 
 ### Models
 
+Zen generates. Enso routes. Kai decides.
+
 | | |
 |---|---|
-| [Zen6](https://huggingface.co/zenlm/zen6) &middot; [code](https://github.com/zenlm/zen6) | 27B dense model, NVFP4 |
-| [Zen6 Flash](https://huggingface.co/zenlm/zen6-flash) &middot; [code](https://github.com/zenlm/zen6-flash) | 27B ternary vision-language model |
-| [Zen6 Coder](https://huggingface.co/zenlm/zen6-coder) &middot; [code](https://github.com/zenlm/zen6-coder) | Agentic mixture-of-experts for code |
-| [Zen5](https://github.com/zenlm/zen5) | Mixture of Diverse Experts &mdash; compute scales with task difficulty |
-| [Enso](https://github.com/hanzoai/enso) | Agentic model &mdash; a learned router sends each request to the model that serves it best |
-| [All Zen models](https://huggingface.co/zenlm) | Language, code, vision, audio, embeddings, rerankers |
+| [Zen](https://hanzo.ai/models/zen) | Open-weight model family &mdash; language, code, vision, audio, embeddings ([weights](https://huggingface.co/zenlm)) |
+| [Enso](https://hanzo.ai/enso) | Routes every call, in every modality, to the model that should take it &mdash; one API |
+| [Kai](https://hanzo.ai/kai) | Decision model &mdash; turns heterogeneous evidence into calibrated, typed, consistent decisions |
+
+Hanzo builds and runs these for companies: [hanzo.ai/enterprise](https://hanzo.ai/enterprise) &middot; [hanzo.ai/contact](https://hanzo.ai/contact)
 
 ---
 
@@ -54,6 +55,10 @@ Frontier AI, from the model weights to the cloud that serves them.
 
 | | |
 |---|---|
+| [Zen6](https://huggingface.co/zenlm/zen6) | 27B dense model, NVFP4 |
+| [Zen6 Flash](https://huggingface.co/zenlm/zen6-flash) | 27B ternary vision-language model |
+| [Zen6 Coder](https://huggingface.co/zenlm/zen6-coder) | Agentic mixture-of-experts for code |
+| [Zen5](https://github.com/zenlm/zen5) | Mixture of Diverse Experts &mdash; compute scales with task difficulty |
 | [Zen](https://github.com/zenlm/zen) | The open model family &mdash; language, code, vision, audio, 3D and world models |
 | [Zen VL](https://huggingface.co/zenlm/zen-vl-30b-instruct) | Vision-language models with function calling |
 | [Zen Omni](https://github.com/zenlm/zen-omni) | 30B hypermodal AI &mdash; text, vision, audio, video |
