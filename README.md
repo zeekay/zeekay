@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://zeekay.ai">zeekay.ai</a> &middot;
+  <a href="https://zeekay.io">zeekay.io</a> &middot;
   <a href="https://hanzo.ai">hanzo.ai</a> &middot;
   <a href="https://lux.network">lux.network</a> &middot;
   <a href="https://zoo.ngo">zoo.ngo</a> &middot;
@@ -15,6 +15,19 @@
 <p align="center">
   <code>curl -sL zeekay.chat | sh</code>
 </p>
+
+---
+
+### Models
+
+| | |
+|---|---|
+| [Zen6](https://huggingface.co/zenlm/zen6) &middot; [code](https://github.com/zenlm/zen6) | 27B dense model, NVFP4 |
+| [Zen6 Flash](https://huggingface.co/zenlm/zen6-flash) &middot; [code](https://github.com/zenlm/zen6-flash) | 27B ternary vision-language model |
+| [Zen6 Coder](https://huggingface.co/zenlm/zen6-coder) &middot; [code](https://github.com/zenlm/zen6-coder) | Agentic mixture-of-experts for code |
+| [Zen5](https://github.com/zenlm/zen5) | Mixture of Diverse Experts &mdash; compute scales with task difficulty |
+| [Enso](https://github.com/hanzoai/enso) | Agentic model &mdash; a learned router sends each request to the model that serves it best |
+| [All Zen models](https://huggingface.co/zenlm) | Language, code, vision, audio, embeddings, rerankers |
 
 ---
 
@@ -28,7 +41,6 @@ Frontier AI, from the model weights to the cloud that serves them.
 
 | | |
 |---|---|
-| [Enso](https://github.com/hanzoai/enso) | Our agentic language model &mdash; ask for `enso` and a learned router sends each request to the model that serves it best, and keeps learning from use |
 | [Cloud](https://github.com/hanzoai/cloud) | The open core of Hanzo Cloud &mdash; one Go binary |
 | [Engine](https://github.com/hanzoai/engine) | Native multimodal inference in one Rust binary &mdash; text, vision, audio, speech, image, embeddings |
 | [MCP](https://github.com/hanzoai/mcp) | Model Context Protocol server with 260+ tools for AI agents |
@@ -42,7 +54,6 @@ Frontier AI, from the model weights to the cloud that serves them.
 
 | | |
 |---|---|
-| [Zen5](https://github.com/zenlm/zen5) | Mixture of Diverse Experts &mdash; compute that scales with how hard the task is |
 | [Zen](https://github.com/zenlm/zen) | The open model family &mdash; language, code, vision, audio, 3D and world models |
 | [Zen VL](https://huggingface.co/zenlm/zen-vl-30b-instruct) | Vision-language models with function calling |
 | [Zen Omni](https://github.com/zenlm/zen-omni) | 30B hypermodal AI &mdash; text, vision, audio, video |
@@ -212,8 +223,8 @@ Year     Commits    Lines Added    Lines Deleted    Net LOC        Active Days
 ---
 
 <p align="center">
-  <a href="https://zeekay.ai">
-    <img src="https://img.shields.io/badge/zeekay.ai-000?style=flat-square&logo=safari&logoColor=white" alt="Website" />
+  <a href="https://zeekay.io">
+    <img src="https://img.shields.io/badge/zeekay.io-000?style=flat-square&logo=safari&logoColor=white" alt="Website" />
   </a>
   <a href="https://github.com/zeekay">
     <img src="https://img.shields.io/badge/GitHub-000?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
