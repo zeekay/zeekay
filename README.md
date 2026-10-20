@@ -22,7 +22,7 @@
 
 Zen generates. Enso routes. Kai decides. Nio enforces.
 
-| | |
+| Model | Focus & Architecture |
 |---|---|
 | [Zen](https://hanzo.ai/zen) | Open-weight foundation model family &mdash; language, code, vision, audio, embeddings ([weights](https://huggingface.co/zenlm)) |
 | [Enso](https://hanzo.ai/enso) | Adaptive model family & router &mdash; routes every call, in every modality, to the optimal model |
@@ -34,7 +34,7 @@ Zen generates. Enso routes. Kai decides. Nio enforces.
 
 Video, image, 3D, Foley, voice and music &mdash; from open Zen foundations to studio generation.
 
-| | |
+| Model | Modality & Capabilities |
 |---|---|
 | [Koma](https://hanzo.ai/koma) | Cinematic video generation, character continuity, and director camera control (`/v1/video`) &middot; [Zen Director](https://huggingface.co/zenlm/zen-director) |
 | [Iro](https://hanzo.ai/iro) | High-fidelity image synthesis, character sheets, inpainting and wide-gamut color (`/v1/images`) &middot; [Zen Artist](https://github.com/zenlm/zen-artist) |
@@ -56,7 +56,7 @@ Frontier AI, from the model weights to the cloud that serves them.
 
 **[Hanzo AI](https://github.com/hanzoai)** `CEO` &mdash; Techstars '17. The Open AI Cloud.
 
-| | |
+| Component | Function |
 |---|---|
 | [Cloud](https://github.com/hanzoai/cloud) | The open core of Hanzo Cloud &mdash; one Go binary |
 | [Engine](https://github.com/hanzoai/engine) | Native multimodal inference in one Rust binary &mdash; text, vision, audio, speech, image, embeddings |
@@ -71,7 +71,7 @@ Frontier AI, from the model weights to the cloud that serves them.
 
 **[Zen LM](https://github.com/zenlm)** `Architect` &mdash; Open foundation models, from the edge to frontier scale.
 
-| | |
+| Foundation | Architecture & Role |
 |---|---|
 | [Zen6](https://huggingface.co/zenlm/zen6) | 27B dense model, NVFP4 |
 | [Zen6 Flash](https://huggingface.co/zenlm/zen6-flash) | 27B ternary vision-language model |
@@ -100,7 +100,7 @@ Hardening decentralized systems against quantum computers with lattice-based cry
 
 **[Lux](https://github.com/luxfi)** `Chairman` &mdash; Post-quantum blockchain accelerating economic freedom.
 
-| | |
+| Component | Description |
 |---|---|
 | [Node](https://github.com/luxfi/node) | The Lux node &mdash; Go, Rust and C++ runtimes at parity, ZAP-native |
 | [Consensus](https://github.com/luxfi/consensus) | Quasar consensus engine |
@@ -119,7 +119,7 @@ Hardening decentralized systems against quantum computers with lattice-based cry
 
 Computing on data that stays encrypted, and moving value between chains without a trusted party.
 
-| | |
+| Protocol | Focus |
 |---|---|
 | [FHE](https://github.com/luxfi/fhe) | Fully homomorphic encryption with GPU acceleration |
 | [Lattice](https://github.com/luxfi/lattice) | Multiparty homomorphic encryption for post-quantum safety |
@@ -134,7 +134,7 @@ Open research networks and community governance for AI.
 
 **[Zoo](https://github.com/zoo-labs)** `Founder` &mdash; Decentralized AI research network and regenerative finance for endangered life.
 
-| | |
+| Project | Focus |
 |---|---|
 | [Lifeguard](https://github.com/zooai/lifeguard) | Autonomous life preservation framework &mdash; dataset, benchmarks, and structural complement head |
 | [Papers](https://papers.zoo.ngo) | Open peer-style papers on species monitoring, bioacoustics, and habitat modeling |
@@ -147,7 +147,7 @@ Open research networks and community governance for AI.
 
 Zero-copy app protocol: one wire format for AI agents and the services they call, with a written spec, formal proofs, and native bindings across languages.
 
-| | |
+| Layer | Specification & Bindings |
 |---|---|
 | [Spec](https://github.com/zap-proto/spec) | The wire format, byte for byte |
 | [Proofs](https://github.com/zap-proto/proofs) | Formal proofs for the protocol family |
@@ -161,7 +161,7 @@ Zero-copy app protocol: one wire format for AI agents and the services they call
 
 #### Finance
 
-| | |
+| Application | Purpose |
 |---|---|
 | [Wallet](https://github.com/luxfi/wallet) | Open source Lux DeFi wallet |
 | [Market](https://github.com/luxfi/market) | Marketplace for real-world assets |
@@ -169,86 +169,15 @@ Zero-copy app protocol: one wire format for AI agents and the services they call
 
 ---
 
-### At a glance
+### Organizations
 
-<!-- STATS:START -->
-```
-   33,644  commits        15.8  years coding       940  repos touched
-  42.7M   lines added    27.6M lines deleted      15.0M  net lines
-    2,488  active days       44  longest streak     Wed  most productive day
-```
-<!-- STATS:END -->
-
-<!-- ORGS:START -->
-| Org | Repos | Focus |
-|-----|-------|-------|
-| [hanzoai](https://github.com/hanzoai) | 551 | The Open AI Cloud: Enso, agents, MCP, inference |
+| Organization | Public Repos | Focus |
+|---|---|---|
+| [hanzoai](https://github.com/hanzoai) | 552 | The Open AI Cloud: Enso, agents, MCP, inference |
 | [luxfi](https://github.com/luxfi) | 345 | Post-quantum blockchain, consensus, DeFi |
 | [zenlm](https://github.com/zenlm) | 91 | Open foundation models, training, inference |
 | [zoo-labs](https://github.com/zoo-labs) | 4 | DeAI research, decentralized science |
 | [zeekay](https://github.com/zeekay) | 453 | Open source tools, protocols, experiments |
-<!-- ORGS:END -->
-
----
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://stats.zeekay.com/api?username=zeekay&show_icons=true&theme=mono_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,prs_merged&rank_icon=github&card_width=520" />
-    <source media="(prefers-color-scheme: light)" srcset="https://stats.zeekay.com/api?username=zeekay&show_icons=true&theme=mono_light&hide_border=true&include_all_commits=true&count_private=true&show=reviews,prs_merged&rank_icon=github&card_width=520" />
-    <img alt="GitHub Stats" src="https://stats.zeekay.com/api?username=zeekay&show_icons=true&theme=mono_dark&hide_border=true&include_all_commits=true&count_private=true&show=reviews,prs_merged&rank_icon=github&card_width=520" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://stats.zeekay.com/api/top-langs/?username=zeekay&layout=compact&theme=mono_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
-    <source media="(prefers-color-scheme: light)" srcset="https://stats.zeekay.com/api/top-langs/?username=zeekay&layout=compact&theme=mono_light&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
-    <img alt="Top Languages" src="https://stats.zeekay.com/api/top-langs/?username=zeekay&layout=compact&theme=mono_dark&hide_border=true&langs_count=12&card_width=520&size_weight=0.5&count_weight=0.5&exclude_repo=competitors" />
-  </picture>
-</p>
-
----
-
-<details>
-<summary><strong>Yearly output</strong></summary>
-
-<!-- YEARLY:START -->
-```
-Year     Commits    Lines Added    Lines Deleted    Net LOC        Active Days
-─────    ───────    ───────────    ─────────────    ───────────    ───────────
-2025       4,775      12,671,999         6,794,477     +  5,877,522          171
-2024       1,175      10,189,872         1,939,029     +  8,250,843          180
-2023         978       1,675,762         1,131,036     +    544,726           91
-2022       1,411         508,696           365,523     +    143,173          189
-2021       1,205       5,288,914         5,278,338     +     10,576          101
-2020         597         206,027           152,167     +     53,860          106
-2019         245         221,835           177,721     +     44,114           62
-2018       1,817         500,582           920,332        -419,750          142
-2017       4,030         804,242           915,549        -111,307          178
-2016       1,854         475,629           536,317         -60,688          195
-2015       4,918       2,290,756         2,545,690        -254,934          247
-2014       3,752       3,268,349         5,838,899      -2,570,550          241
-2013       4,073       2,635,805           772,822     +  1,862,983          278
-2012       2,379       1,762,415           166,728     +  1,595,687          248
-2011         416         168,137           101,871     +     66,266           53
-2010          19           4,465             1,475     +      2,990            6
-```
-<!-- YEARLY:END -->
-
-</details>
-
-<details>
-<summary><strong>Recent activity (last 30 days)</strong></summary>
-
-<!-- RECENT:START -->
-```
-  0 commits across 0 repos
-  0  lines added
-  0  lines deleted
-```
-<!-- RECENT:END -->
-
-</details>
 
 ---
 

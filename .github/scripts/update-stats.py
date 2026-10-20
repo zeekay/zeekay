@@ -67,7 +67,7 @@ def main():
         "zoo-labs": "DeAI research, decentralized science",
         "zeekay": "Open source tools, protocols, experiments",
     }
-    org_lines = ["| Org | Repos | Focus |", "|-----|-------|-------|"]
+    org_lines = ["| Organization | Repos | Focus |", "|---|---|---|"]
     for org, count in orgs.items():
         org_lines.append(f"| [{org}](https://github.com/{org}) | {count} | {focus[org]} |")
     readme = replace_section(readme, "ORGS", "\n".join(org_lines))
