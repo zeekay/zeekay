@@ -20,13 +20,29 @@
 
 ### Models
 
-Zen generates. Enso routes. Kai decides.
+Zen generates. Enso routes. Kai decides. Nio enforces.
 
 | | |
 |---|---|
-| [Zen](https://hanzo.ai/models/zen) | Open-weight model family &mdash; language, code, vision, audio, embeddings ([weights](https://huggingface.co/zenlm)) |
-| [Enso](https://hanzo.ai/enso) | Routes every call, in every modality, to the model that should take it &mdash; one API |
-| [Kai](https://hanzo.ai/kai) | Decision model &mdash; turns heterogeneous evidence into calibrated, typed, consistent decisions |
+| [Zen](https://hanzo.ai/zen) | Open-weight foundation model family &mdash; language, code, vision, audio, embeddings ([weights](https://huggingface.co/zenlm)) |
+| [Enso](https://hanzo.ai/enso) | Adaptive model family & router &mdash; routes every call, in every modality, to the optimal model |
+| [Kai](https://hanzo.ai/kai) | Decision model &mdash; block speculative diffusion turning heterogeneous evidence into calibrated, typed decisions |
+| [Nio](https://hanzo.ai/trust) | Deterministic policy authority &mdash; joins on `allow < ask < deny`, governs action execution under invariant policy |
+| [Lifeguard](https://github.com/zooai/lifeguard) | Autonomous life preservation framework &mdash; couples Kai perception with Nio policy to eliminate hardware self-preservation |
+
+#### Creative AI
+
+Video, image, 3D, Foley, voice and music &mdash; from open Zen foundations to studio generation.
+
+| | |
+|---|---|
+| [Koma](https://hanzo.ai/koma) | Cinematic video generation, character continuity, and director camera control (`/v1/video`) &middot; [Zen Director](https://huggingface.co/zenlm/zen-director) |
+| [Iro](https://hanzo.ai/iro) | High-fidelity image synthesis, character sheets, inpainting and wide-gamut color (`/v1/images`) &middot; [Zen Artist](https://github.com/zenlm/zen-artist) |
+| [Mori](https://hanzo.ai/mori) | Production 3D asset generation, watertight quad/tri meshes, and PBR materials (`/v1/3d`) &middot; [Zen 3D](https://huggingface.co/zenlm/zen-3d) |
+| [Oto](https://hanzo.ai/oto) | Frame-synchronized Foley, acoustic room impulse modeling, and environmental audio (`/v1/foley`) &middot; [Zen Foley](https://huggingface.co/zenlm/zen-foley) |
+| [Koe](https://hanzo.ai/koe) | Directable speech synthesis, emotional modulation, voice cloning, and dubbing (`/v1/audio/speech`) &middot; [Zen Dub](https://github.com/zenlm/zen-dub) |
+| [Uta](https://hanzo.ai/uta) | Original song composition, cue-driven scoring, and multi-track music production (`/v1/music`) &middot; [Zen Musician](https://github.com/zenlm/zen-musician) |
+| [Jin](https://hanzo.ai/realtime) | Real-time bidirectional streaming, voice activity detection (VAD), and conversational agent interaction |
 
 Hanzo builds and runs these for companies: [hanzo.ai/enterprise](https://hanzo.ai/enterprise) &middot; [hanzo.ai/contact](https://hanzo.ai/contact)
 
@@ -44,6 +60,8 @@ Frontier AI, from the model weights to the cloud that serves them.
 |---|---|
 | [Cloud](https://github.com/hanzoai/cloud) | The open core of Hanzo Cloud &mdash; one Go binary |
 | [Engine](https://github.com/hanzoai/engine) | Native multimodal inference in one Rust binary &mdash; text, vision, audio, speech, image, embeddings |
+| [Decision](https://github.com/hanzoai/decision) | Typed decision runtime and Kai inference engine &mdash; CPU, CUDA, Vulkan, Metal |
+| [Trust](https://github.com/hanzoai/trust) | Deterministic policy authority (Nio) and runtime trust boundary |
 | [MCP](https://github.com/hanzoai/mcp) | Model Context Protocol server with 260+ tools for AI agents |
 | [Agents](https://github.com/hanzoai/agents) | Multi-agent orchestration over the MCP tool surface |
 | [Crawl](https://github.com/hanzoai/crawl) | Read any web page as clean markdown &mdash; Go library, CLI and API |
@@ -62,8 +80,13 @@ Frontier AI, from the model weights to the cloud that serves them.
 | [Zen](https://github.com/zenlm/zen) | The open model family &mdash; language, code, vision, audio, 3D and world models |
 | [Zen VL](https://huggingface.co/zenlm/zen-vl-30b-instruct) | Vision-language models with function calling |
 | [Zen Omni](https://github.com/zenlm/zen-omni) | 30B hypermodal AI &mdash; text, vision, audio, video |
-| [Zen 3D](https://github.com/zenlm/zen-3d) | Controllable image-to-3D asset generation |
+| [Zen Director](https://huggingface.co/zenlm/zen-director) | Open diffusion transformer foundation for video research (Wan2.2 base) |
+| [Zen Artist](https://github.com/zenlm/zen-artist) | Open foundation for text-to-image synthesis, styling and inpainting |
+| [Zen 3D](https://github.com/zenlm/zen-3d) | Controllable image-to-3D asset generation based on TRELLIS |
 | [Zen World](https://github.com/zenlm/zen-world) | 3D world and scene generation |
+| [Zen Foley](https://huggingface.co/zenlm/zen-foley) | Open foundation for frame-synchronized audio and Foley synthesis |
+| [Zen Dub](https://github.com/zenlm/zen-dub) | Multilingual directable speech synthesis foundation (Qwen3-TTS base) |
+| [Zen Musician](https://github.com/zenlm/zen-musician) | Full-length song generation and latent diffusion music foundation |
 | [Satori](https://github.com/zenlm/satori) | Video generation in latent space with explicit temporal dynamics |
 | [Mu](https://github.com/zenlm/mu) | Full-length song generation with latent diffusion |
 | [Engine](https://github.com/zenlm/engine) | High-performance inference &mdash; Rust, MLX, GGUF |
@@ -113,8 +136,10 @@ Open research networks and community governance for AI.
 
 | | |
 |---|---|
+| [Lifeguard](https://github.com/zooai/lifeguard) | Autonomous life preservation framework &mdash; dataset, benchmarks, and structural complement head |
+| [Papers](https://papers.zoo.ngo) | Open peer-style papers on species monitoring, bioacoustics, and habitat modeling |
 | [ZIPs](https://zips.zoo.ngo) | Zoo Improvement Proposals &mdash; open governance for AI research |
-| [Zoo](https://github.com/zoo-labs/zoo) | The Zoo ecosystem &mdash; decentralized AI research network |
+| [Zoo](https://github.com/zoo-labs/zoo) | The Zoo ecosystem &mdash; decentralized AI research network and interactive menagerie |
 
 ---
 
