@@ -5,7 +5,6 @@
 </p>
 
 <p align="center">
-  <a href="https://zeekay.io">zeekay.io</a> &middot;
   <a href="https://hanzo.ai">hanzo.ai</a> &middot;
   <a href="https://lux.network">lux.network</a> &middot;
   <a href="https://zoo.ngo">zoo.ngo</a> &middot;
