@@ -27,14 +27,6 @@ Zen generates. Enso routes. Kai decides. Nio enforces.
 | [Enso](https://hanzo.ai/enso) | Adaptive model family & router &mdash; routes every call, in every modality, to the optimal model |
 | [Kai](https://hanzo.ai/kai) | Decision model &mdash; block speculative diffusion turning heterogeneous evidence into calibrated, typed decisions |
 | [Nio](https://hanzo.ai/nio) | Deterministic policy authority &mdash; joins on `allow < ask < deny`, governs action execution under invariant policy |
-| [Lifeguard](https://github.com/zooai/lifeguard) | Autonomous life preservation framework &mdash; couples Kai perception with Nio policy to eliminate hardware self-preservation |
-
-#### Creative AI
-
-Video, image, 3D, Foley, voice and music &mdash; from open Zen foundations to studio generation.
-
-| Model | Modality & Capabilities |
-|---|---|
 | [Koma](https://hanzo.ai/koma) | Cinematic video generation, character continuity, and director camera control (`/v1/video`) &middot; [Zen Director](https://huggingface.co/zenlm/zen-director) |
 | [Iro](https://hanzo.ai/iro) | High-fidelity image synthesis, character sheets, inpainting and wide-gamut color (`/v1/images`) &middot; [Zen Artist](https://github.com/zenlm/zen-artist) |
 | [Mori](https://hanzo.ai/mori) | Production 3D asset generation, watertight quad/tri meshes, and PBR materials (`/v1/3d`) &middot; [Zen 3D](https://huggingface.co/zenlm/zen-3d) |
