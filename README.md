@@ -26,7 +26,7 @@ Zen generates. Enso routes. Kai decides. Nio enforces.
 | [Zen](https://hanzo.ai/zen) | Open-weight foundation model family &mdash; language, code, vision, audio, embeddings ([weights](https://huggingface.co/zenlm)) |
 | [Enso](https://hanzo.ai/enso) | Adaptive model family & router &mdash; routes every call, in every modality, to the optimal model |
 | [Kai](https://hanzo.ai/kai) | Decision model &mdash; block speculative diffusion turning heterogeneous evidence into calibrated, typed decisions |
-| [Nio](https://hanzo.ai/trust) | Deterministic policy authority &mdash; joins on `allow < ask < deny`, governs action execution under invariant policy |
+| [Nio](https://hanzo.ai/nio) | Deterministic policy authority &mdash; joins on `allow < ask < deny`, governs action execution under invariant policy |
 | [Lifeguard](https://github.com/zooai/lifeguard) | Autonomous life preservation framework &mdash; couples Kai perception with Nio policy to eliminate hardware self-preservation |
 
 #### Creative AI
