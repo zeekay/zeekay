@@ -27,12 +27,12 @@ Zen generates. Enso routes. Kai decides. Nio enforces.
 | [Enso](https://hanzo.ai/enso) | Adaptive model family & router &mdash; routes every call, in every modality, to the optimal model |
 | [Kai](https://hanzo.ai/kai) | Decision model &mdash; block speculative diffusion turning heterogeneous evidence into calibrated, typed decisions |
 | [Nio](https://hanzo.ai/nio) | Deterministic policy authority &mdash; joins on `allow < ask < deny`, governs action execution under invariant policy |
-| [Koma](https://hanzo.ai/koma) | Cinematic video generation, character continuity, and director camera control (`/v1/video`) &middot; [Zen Director](https://huggingface.co/zenlm/zen-director) |
-| [Iro](https://hanzo.ai/iro) | High-fidelity image synthesis, character sheets, inpainting and wide-gamut color (`/v1/images`) &middot; [Zen Artist](https://github.com/zenlm/zen-artist) |
-| [Mori](https://hanzo.ai/mori) | Production 3D asset generation, watertight quad/tri meshes, and PBR materials (`/v1/3d`) &middot; [Zen 3D](https://huggingface.co/zenlm/zen-3d) |
-| [Oto](https://hanzo.ai/oto) | Frame-synchronized Foley, acoustic room impulse modeling, and environmental audio (`/v1/foley`) &middot; [Zen Foley](https://huggingface.co/zenlm/zen-foley) |
-| [Koe](https://hanzo.ai/koe) | Directable speech synthesis, emotional modulation, voice cloning, and dubbing (`/v1/audio/speech`) &middot; [Zen Dub](https://github.com/zenlm/zen-dub) |
-| [Uta](https://hanzo.ai/uta) | Original song composition, cue-driven scoring, and multi-track music production (`/v1/music`) &middot; [Zen Musician](https://github.com/zenlm/zen-musician) |
+| [Koma](https://hanzo.ai/koma) | Cinematic video generation, character continuity, and director camera control (`/v1/video`) |
+| [Iro](https://hanzo.ai/iro) | High-fidelity image synthesis, character sheets, inpainting and wide-gamut color (`/v1/images`)  |
+| [Mori](https://hanzo.ai/mori) | Production 3D asset generation, watertight quad/tri meshes, and PBR materials (`/v1/3d`)  |
+| [Oto](https://hanzo.ai/oto) | Frame-synchronized Foley, acoustic room impulse modeling, and environmental audio (`/v1/foley`)  |
+| [Koe](https://hanzo.ai/koe) | Directable speech synthesis, emotional modulation, voice cloning, and dubbing (`/v1/audio/speech`)  |
+| [Uta](https://hanzo.ai/uta) | Original song composition, cue-driven scoring, and multi-track music production (`/v1/music`) |
 | [Jin](https://hanzo.ai/realtime) | Real-time bidirectional streaming, voice activity detection (VAD), and conversational agent interaction |
 
 Hanzo builds and runs these for companies: [hanzo.ai/enterprise](https://hanzo.ai/enterprise) &middot; [hanzo.ai/contact](https://hanzo.ai/contact)
