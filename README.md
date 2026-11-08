@@ -4,16 +4,6 @@
   <em>Open Sourceror. Building decentralized intelligence across AI, blockchain, and quantum.</em>
 </p>
 
-<p align="center">
-  <a href="https://hanzo.ai">hanzo.ai</a> &middot;
-  <a href="https://lux.network">lux.network</a> &middot;
-  <a href="https://zoo.ngo">zoo.ngo</a> &middot;
-  <a href="https://zenlm.org">zenlm.org</a>
-</p>
-
-<p align="center">
-  <code>curl -sL zeekay.chat | sh</code>
-</p>
 
 ---
 
