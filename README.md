@@ -4,6 +4,18 @@
   <em>Open Sourceror. Building decentralized intelligence across AI, blockchain, and quantum.</em>
 </p>
 
+<p align="center">
+  <a href="https://hanzo.ai/leaderboard?ref=zeekay">
+    <img src="https://hanzo.ai/badges/zeekay.svg" alt="Hanzo: @zeekay · #1 · 1,510 pts · 106M tok" height="20" />
+  </a>
+  <a href="https://hanzo.ai/badge?ref=zeekay">
+    <img src="https://hanzo.ai/badges/built-with-hanzo.svg" alt="Built with Hanzo" height="20" />
+  </a>
+  <a href="https://hanzo.app/dev?repo=https://github.com/zeekay/zeekay&ref=zeekay">
+    <img src="https://hanzo.ai/badges/edit-on-hanzo.svg" alt="Edit on Hanzo" height="20" />
+  </a>
+</p>
+
 
 ---
 
@@ -163,6 +175,9 @@ Zero-copy app protocol: one wire format for AI agents and the services they call
 ---
 
 <p align="center">
+  <a href="https://hanzo.ai/leaderboard?ref=zeekay">
+    <img src="https://hanzo.ai/badges/zeekay-square.svg" alt="Hanzo: @zeekay · #1 · 1,510 pts · 106M tok" />
+  </a>
   <a href="https://zeekay.io">
     <img src="https://img.shields.io/badge/zeekay.io-000?style=flat-square&logo=safari&logoColor=white" alt="Website" />
   </a>
