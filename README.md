@@ -1,5 +1,7 @@
 <h1 align="center">Z</h1>
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zeekay/zeekay&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zeekay/zeekay&ref=main&action=edit)
+
 <p align="center">
   <em>Open Sourceror. Building decentralized intelligence across AI, blockchain, and quantum.</em>
 </p>
